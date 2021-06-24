@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#site_header {
+  border-bottom: 1px solid #ededed;
+  padding: 1rem;
+}
+
+#site_header .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .link {
+  font-size: 1.25rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.logo>img {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.top>.right_menu>img {
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 1rem;
+}
+
+.right_menu {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.main_menu>a {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.main_menu>a:not(:first-child) {
+  margin-left: 1rem;
+}
+
+
+
+.faqs {
+  width: 800px;
+  margin: auto;
+}
+
+.faq {
+  margin-top: 5rem;
+}
+
+.faq>h2 {
+  padding-bottom: 2rem;
+}
+
+.answer {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.answer ol {
+  padding-left: 2rem;
+}
