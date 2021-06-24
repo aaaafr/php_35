@@ -1,0 +1,67 @@
+/* Commons */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.active {
+  text-decoration: underline;
+  color: red;
+
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.logo>h1 {
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.product {
+  margin: 0.5rem;
+  width: 400px;
+  background-color: white;
+}
+
+.product_details {
+  padding: 1rem;
+}
+
+/* Footer */
+
+#site_footer {
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
