@@ -51,6 +51,7 @@ class Car
   {
     $this->price = $price;
   }
+
 }
 
 // Crea istance new class object
@@ -60,7 +61,7 @@ $tesla->make = 'Tesla';
 $tesla->model = 'X';
 
 var_dump($tesla);
-
+$tesla->price = 20000;
 $tesla->setPrice(50000);
 var_dump($tesla->getPrice());
 
